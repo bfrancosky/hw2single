@@ -14,6 +14,8 @@
 		D32B474B20AB9CE300D62F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32B474920AB9CE300D62F72 /* LaunchScreen.storyboard */; };
 		D32B475620AB9CE400D62F72 /* HW2SingleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B475520AB9CE400D62F72 /* HW2SingleTests.swift */; };
 		D32B476120AB9CE400D62F72 /* HW2SingleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B476020AB9CE400D62F72 /* HW2SingleUITests.swift */; };
+		D32B476F20ABA04900D62F72 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B476E20ABA04900D62F72 /* CLLocationExtensions.swift */; };
+		D32B477120ABA04F00D62F72 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32B477020ABA04F00D62F72 /* CLLocationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D32B475C20AB9CE400D62F72 /* HW2SingleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2SingleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32B476020AB9CE400D62F72 /* HW2SingleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2SingleUITests.swift; sourceTree = "<group>"; };
 		D32B476220AB9CE400D62F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32B476E20ABA04900D62F72 /* CLLocationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CLLocationExtensions.swift; path = ../JRECLLocation/CLLocationExtensions.swift; sourceTree = "<group>"; };
+		D32B477020ABA04F00D62F72 /* CLLocationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				D32B475420AB9CE400D62F72 /* HW2SingleTests */,
 				D32B475F20AB9CE400D62F72 /* HW2SingleUITests */,
 				D32B473E20AB9CE300D62F72 /* Products */,
+				D32B476E20ABA04900D62F72 /* CLLocationExtensions.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +104,7 @@
 			children = (
 				D32B474020AB9CE300D62F72 /* AppDelegate.swift */,
 				D32B474220AB9CE300D62F72 /* ViewController.swift */,
+				D32B477020ABA04F00D62F72 /* CLLocationExtensions.swift */,
 				D32B474420AB9CE300D62F72 /* Main.storyboard */,
 				D32B474720AB9CE300D62F72 /* Assets.xcassets */,
 				D32B474920AB9CE300D62F72 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32B474320AB9CE300D62F72 /* ViewController.swift in Sources */,
+				D32B477120ABA04F00D62F72 /* CLLocationExtensions.swift in Sources */,
+				D32B476F20ABA04900D62F72 /* CLLocationExtensions.swift in Sources */,
 				D32B474120AB9CE300D62F72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
